@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.programming.revision.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your total is 0!"
+        android:textSize="45sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tvDisplay"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom"
+        android:id="@+id/bAdd"/>
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="@string/sub"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/bSub"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
